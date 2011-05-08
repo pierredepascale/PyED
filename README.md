@@ -16,7 +16,7 @@ The installation follows the standard Python guideline with a
 
 should do the trick.
 
- ## Using the editor
+## Using the editor
 
 Start the editor with the `pyed` command. To quit the editor, press
 'C-c' (i.e control key and 'c').
