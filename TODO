@@ -1,0 +1,7 @@
+Here is a list of TODOs for PyED
+
+[ ] recenter the point when it goes outside of the window
+[ ] add a minibuffer
+[ ] add I/O functions
+[ ] add an inferior python capabilities
+[ ] change the commands directory to a dict instead of an array

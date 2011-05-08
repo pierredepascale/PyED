@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+#
+# PyED -- an emacs like text editor in Python
+#
+# Copyright 2011 Pierre De Pascale (pierre.depascale _AT_ gmail.com)
+#
+
+from pyed.editor import *
+
+import pyed.mode
+import pyed.fundamental
+
+if __name__ == '__main__':
+  pyed.mode.set_default_mode(pyed.fundamental.FUNDAMENTAL_MODE)
+  set_editor(Editor())
+  run_editor()
